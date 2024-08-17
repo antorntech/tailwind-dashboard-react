@@ -11,6 +11,7 @@ import routes from "@/routes";
 import { useMaterialTailwindController, setOpenConfigurator } from "@/context";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { SignIn } from "@/pages/auth";
 
 export function Dashboard() {
   const [controller, dispatch] = useMaterialTailwindController();

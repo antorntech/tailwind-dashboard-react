@@ -12,10 +12,6 @@ import HomeAbout from "./pages/dashboard/homeabout";
 import EditHomeAbout from "./pages/dashboard/edithomeabout";
 import AddHomeAbout from "./pages/dashboard/AddHomeAbout";
 
-const icon = {
-  className: "w-5 h-5 text-inherit",
-};
-
 export const routes = [
   {
     layout: "dashboard",
@@ -35,6 +31,10 @@ export const routes = [
       {
         path: "/edit-home-about/:id",
         element: <EditHomeAbout />,
+      },
+      {
+        path: "/sign-in",
+        element: <SignIn />,
       },
       {
         path: "/profile",

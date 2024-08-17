@@ -6,7 +6,7 @@ import Loader from "@/loader/Loader";
 
 const HomeAbout = () => {
   const [open, setOpen] = React.useState(false);
-  const [data, setData] = React.useState(false);
+  const [data, setData] = React.useState(true);
 
   const handleOpen = () => setOpen(!open);
   return (
